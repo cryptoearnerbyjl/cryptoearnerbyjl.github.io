@@ -81,7 +81,7 @@ body{
   .navbar nav {
   display: none;
   z-index: 999;
-  height: 30vh;
+  height: 35vh;
   top : 0;
   right: 0;
   left: 0;
