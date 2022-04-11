@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Wallet</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a href="/Home.html" class="Logo">Crypto<span>Earner</span></a>
+            <a href="#" class="navopen" id="mobile-menu">Navigation</a>
+           
+            <nav>
+                <a href="/Home.html" class="Logo">Crypto<span>Earner</span></a>
+                <a href="#" class="navopen" id="mobile-menu-exit">Navigation</a>
+                <ul>
+                    <li class="current"> <a href="/Home.html">Home</a></li>
+                    <li> <a href="/payin.html">Pay In</a></li>
+                    <li><a href="/payout.html">Pay Out</a></li>
+                    <li class="gold"><a href="/yourwallet.html">Your Wallet</a></li>
+                    <li><a href="/support.html">Support</a></li>
+                    
+                </ul>
+                
+            </nav>
+        </div>
+    </div>
+    <section class="support">
+        <div class="container">
+            <div class="support">
+                <h1>Support</h1>
+                <h2>Your Email</h2>
+                <input type="email">
+                <h2>Subject</h2>
+                <input type="text">
+                <h2>Explain Problem</h2>
+                <textarea name="text" id="texta" cols="30" rows="10"></textarea>
+                <p>Currently disabled</p>
+            </div>
+        </div>
+    </section>
+    <section class="downunder">
+        <div class="container">
+          <h4>Website made by JL</h4>
+        </div>
+    </section>
+    
+        <script>
+            const mobileBtn = document.getElementById('mobile-menu')
+                  nav = document.querySelector('nav')
+                  mobileBtnExit = document.getElementById('mobile-menu-exit');
+    
+            mobileBtn.addEventListener('click', () =>{
+                nav.classList.add('menu-btn');
+            })
+    
+            mobileBtnExit.addEventListener('click', () =>{
+                nav.classList.remove('menu-btn');
+            })
+          
+        </script>
+    </body>
+    </html>

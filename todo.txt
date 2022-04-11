@@ -1,0 +1,4 @@
+pictue animations
+hoover navbar
+add link
+gold class

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+
+:root{
+    --primary-color: #e30deb;
+}
+
+body{
+    background-color: #1a0bec;
+    margin: 0;
+    font-family: 'MuseoModerno';
+}
+
+.navbar{
+    background-color: #e30deb;
+}
+
+.navbar.Logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+  }
+
+.navbar.Logo.span {
+   
+  }

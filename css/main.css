@@ -1,0 +1,549 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@keyframes example {
+    0%   {background-color: #1c0deb;}
+    25%  {background-color: #3a2df7;}
+    50%  {background-color: #3123f7;}
+    100% {background-color: var(--backi-color);}
+  }
+  @keyframes nav{
+    0%   {background-color: #0b0ff8;}
+    25%  {background-color: #4108df;}
+    50%  {background-color: #6912da;}
+    100% {background-color: #0b0ff8;}
+  }
+  @keyframes dwnu{
+    0%   {background-color: var(--primary-color);}
+    25%  {background-color: rgb(235, 192, 74);}
+    50%  {background-color: rgb(216, 170, 45);}
+    100% {background-color: rgb(170, 129, 17);}
+  }
+    @keyframes luna{
+        0%   {background-color: #003366;}
+        25%  {background-color: #ffcc33;}
+        50%  {background-color: #ff6600;}
+        75%  {background-color: #ffcc33;}
+        100%   {background-color: #003366;}
+  }
+
+  @keyframes goldi{
+    0%   {background-color: #FFDF00;}
+    25%  {background-color: #D4AF37;}
+    50%  {background-color: #CFB53B;}
+    100% {background-color: #FFDF00;}
+  }
+
+  @keyframes rotate{
+      from{
+          transform: rotate(0deg);
+      }
+      to{
+          transform: rotate(359deg);
+      }
+  }
+:root{
+    --primary-color: rgb(230, 183, 56);
+    --backi-color : #1c0deb;
+    --lunaa: #003366;
+    --lunab: #ffcc33;
+    --lunac: #ff6600;
+    --bita: #ff9900;
+    --bitb: #ffffff;
+}
+
+body{
+    background-color: #1c0deb;
+    margin: 0;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+   
+}
+
+.navbar{
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    animation-name: nav;
+    animation-duration: 5s;
+    animation-iteration-count: 9999999;
+
+}
+
+.Logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(230, 183, 56);
+    font-size: 1.2em;
+    
+  }
+
+  .navbar nav {
+  display: none;
+  z-index: 999;
+  height: 30vh;
+  top : 0;
+  right: 0;
+  left: 0;
+  padding: 1em;
+  width: 100%;
+  position: fixed;
+  animation-name: nav;
+  animation-duration: 5s;
+  animation-iteration-count: 9999999;
+}
+  
+
+  nav li a{
+      text-decoration: none;
+      text-align: center;
+      margin-bottom: 1em;
+  }
+
+  nav li a:hover{
+      border: solid 2px;
+      padding-left: 1em;
+      padding-right: 1em;
+      border-radius: 50px;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  a{
+      color: var(--primary-color) ;
+      font-weight: bold;
+  }
+
+.navbar img{
+    color: var(--primary-color);
+    background: var(--primary-color);
+    padding: 0.2em;
+
+}
+.navbar img:hover{
+    cursor: pointer;
+}
+li{
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+.subhead{
+    font-size: 20px;
+}
+
+.hero{
+    text-align: center;
+    padding-bottom: 5em;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 9999999;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 60px;
+    padding-top: 40px;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+
+.hero img{
+    width: 360px;
+    position: center;
+    padding-bottom: 20px;
+    animation: example;
+    animation-duration: 4s 2;
+    padding-left: 35px;
+    animation: rotate 4s infinite linear;
+}
+
+.hero a{
+    background-color: var(--primary-color);
+    color: var(--backi-color) ;
+    padding-right: 1em;
+    padding-left: 1em;
+    
+    
+    border-radius: 70px;
+    text-align: center;
+}
+
+.payinyas {
+    background-color: #120fa5;
+    text-align: center;
+    padding-bottom: 5em;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: 9999999;
+    
+}
+
+.payinyas img {
+    text-align: center;
+    width: 350px;
+    margin: 0px;
+    padding: 30px;
+}
+
+.payinyas h1{
+    padding-bottom: 100;
+}
+
+h3{
+    padding-top: 0;
+    color: #ddcc36;
+}
+
+img{
+    animation:mymove 5s 2;
+
+}
+
+.downunder{
+    text-align: center;
+    color: var(--backi-color);
+    animation-name: dwnu;
+    animation-duration: 5s;
+    animation-iteration-count: 9999999;
+    margin: 0%;
+    padding: 0.2em;
+   
+    bottom: 0px;
+    width: 100%;
+}
+
+.cryptoc img{
+    width: 120px;
+    margin: 0%;
+    
+    
+  
+}
+.cryptoc{
+    margin: 0%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+   background-color: var(--lunab);
+   text-align: center;
+    
+    
+   
+}
+
+.sus{
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.cryptoc a{
+    text-decoration: none;
+    color: var(--lunaa);
+    background-color: var(--lunab);
+    border-color: var(--lunac);
+    border: solid 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.cryptoc  h2{
+    color: var(--lunaa);
+    padding-bottom: 1em;
+}
+.cryptoc p{
+    padding-bottom: 2em;
+    color: var(--lunaa);
+}
+
+.bitcoin{
+    margin: 0%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+   background-color: var(--bita);
+   text-align: center;
+}
+
+.bitcoin a{
+    text-decoration: none;
+    color: var(--bitb);
+    background-color: var(--bita);
+    border-color: var(--bitb);
+    border: solid 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.bitcoin img{
+    width: 120px;
+    margin: 0%;
+
+}
+
+.bitcoin  h2{
+    color: var(--bitb);
+    padding-bottom: 1em;
+}
+.bitcoin p{
+    padding-bottom: 2em;
+    color: var(--bitb);
+}
+
+.mobile-menue{
+    float: right;
+}
+
+nav li a:hover{
+    font-weight: bold;
+}
+
+nav.menu-btn {
+    display: block;
+  }
+  
+.navbar nav img{
+    float: right;
+    cursor: pointer;
+}
+
+.navopen{
+    text-decoration: none;
+    float: right;
+    border: solid 2px;
+    border-radius: 50px;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    margin-right: 20px;
+}
+
+
+.lunabuy{
+    text-align: center;
+    background-color: var(--lunab);
+    
+    margin-top: 10em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 50px;
+    padding-bottom: 0.6em;
+    margin-bottom: 122px;
+}
+.lunabuy h2{
+ padding-top: 1em;
+ color: var(--lunaa)
+}
+
+.lunabuy h3{
+    color: var(--lunac);
+}
+
+.lunabuy p{
+    color: var(--lunaa);
+}
+
+.lunabuy img{
+    width: 300px;
+}
+
+.bitbuy{
+    text-align: center;
+    background-color: var(--bita);
+    
+    margin-top: 10em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 50px;
+    padding-bottom: 0.6em;
+    margin-bottom: 122px;
+}
+
+.bitbuy h2{
+    padding-top: 1em;
+    color: var(--bitb)
+   }
+   
+   .bitbuy h3{
+       color: var(--bitb);
+   }
+   
+   .bitbuy p{
+       color: var(--bitb);
+   }
+   
+   .bitbuy img{
+       width: 300px;
+   }
+
+   .outbit{
+       text-align: center;
+       color: var(--primary-color);
+   }
+
+   .outbit h2{
+       margin-top: 1em;
+   }
+
+   .outbit h1{
+    margin-top: 0.5em;
+    
+}
+
+   .outbit img{
+       width: 200px;
+       padding-top: 1em;
+   }
+
+   .outbit a{
+    text-decoration: none;
+    border: var(--primary-color) solid;
+    border-radius: 50px;
+    margin-bottom: 1em ;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+
+   .outbit a:hover{
+       background-color: var(--primary-color);
+       color: var(--backi-color);
+   }
+
+
+
+   input[type="textarea"]{
+       text-decoration: none;
+       background-color: var(--backi-color);
+      border: solid var(--primary-color);
+       font-size: 40px;
+       text-align:center;
+       -moz-appearance: textfield;
+       border-radius: 50px;
+       color: var(--primary-color);
+       margin-bottom: 2px;
+   }
+   
+   input[type="number"]{
+    text-decoration: none;
+    background-color: var(--backi-color);
+   border: solid var(--primary-color);
+    font-size: 40px;
+    text-align:center;
+    -moz-appearance: textfield;
+    border-radius: 50px;
+    color: var(--primary-color);
+    margin-bottom: 1em;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  
+.flex{
+    padding-bottom: 2em;
+    padding-top: 0;
+}
+
+.pimp{
+    font-size: 20px;
+}
+
+.hidethis{
+    background-color: var(--primary-color);
+    color: var(--backi-color);
+    padding-bottom: 4px;
+    display: none;
+}
+
+.hidethis a{
+    text-decoration: none;
+    border: var(--backi-color) solid;
+    border-radius: 50px;
+    margin-bottom: 1em ;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: var(--backi-color);
+}
+
+.hidethis a:hover{
+    background-color: var(--backi-color);
+    color: var(--primary-color);
+}
+
+.wallettt{
+    text-align: center;
+}
+
+.wallettt h1 {
+    margin-top: 1em;
+}
+
+.wallettt h2 {
+    font-size: 40px;
+    color: var(--primary-color);
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.yourwallet{
+    text-align: center;
+    color: var(--primary-color);
+    padding-bottom: 199px;
+}
+.yourwallet h3{
+    word-spacing: 50px;
+    margin-right: 0;
+    padding-left: 4px;
+    padding-right: 0;
+    padding-bottom: 130px;
+    
+}
+
+.support{
+    text-align: center;
+    color: var(--primary-color);
+    display: block;
+}
+
+.support h1{
+    margin-top: 1em;
+}
+
+input[type="email"]{
+    background-color: var(--backi-color);
+    border: 2px solid var(--primary-color);
+    font-size: 20px;
+    color: var(--primary-color);
+    border-radius: 50px;
+}
+
+input[type="text"]{
+    background-color: var(--backi-color);
+    border: 2px solid var(--primary-color);
+    font-size: 20px;
+    color: var(--primary-color);
+    border-radius: 50px;
+}
+
+
+.support textarea{
+    text-decoration: none;
+    background-color: var(--backi-color);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+
+.support button{
+    margin-top: 10%;
+    text-align: center;
+}
