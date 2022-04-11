@@ -74,7 +74,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: rgb(230, 183, 56);
-    font-size: 1em;
+    font-size: 1.2em;
     
   }
 
@@ -142,6 +142,10 @@ li{
     animation-name: example;
     animation-duration: 5s;
     animation-iteration-count: 9999999;
+}
+
+.hero h1 {
+    font-size: 55px;
 }
 
 h1 {
