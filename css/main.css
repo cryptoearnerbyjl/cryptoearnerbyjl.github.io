@@ -425,7 +425,7 @@ nav.menu-btn {
        text-decoration: none;
        background-color: var(--backi-color);
       border: solid var(--primary-color);
-       font-size: 40px;
+       font-size: 30px;
        text-align:center;
        -moz-appearance: textfield;
        border-radius: 50px;
@@ -437,7 +437,7 @@ nav.menu-btn {
     text-decoration: none;
     background-color: var(--backi-color);
    border: solid var(--primary-color);
-    font-size: 40px;
+    font-size: 30px;
     text-align:center;
     -moz-appearance: textfield;
     border-radius: 50px;
